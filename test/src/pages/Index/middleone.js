@@ -1,6 +1,6 @@
 import React from 'react'
 
-function middleone() {
+function Middleone() {
   return (
     <div>
       <section>
@@ -123,4 +123,4 @@ function middleone() {
   )
 }
 
-export default middleone;
+export default Middleone;

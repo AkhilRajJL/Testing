@@ -1,6 +1,6 @@
 import React from 'react'
 
-function middlefive() {
+function Middlefive() {
   return (
     <div>
       <section>
@@ -257,4 +257,4 @@ function middlefive() {
   )
 }
 
-export default middlefive
+export default Middlefive

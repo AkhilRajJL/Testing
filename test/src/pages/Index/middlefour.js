@@ -1,6 +1,6 @@
 import React from 'react'
 
-function middlefour() {
+function Middlefour() {
   return (
     <div>
       <section>
@@ -25,4 +25,4 @@ function middlefour() {
   )
 }
 
-export default middlefour
+export default Middlefour

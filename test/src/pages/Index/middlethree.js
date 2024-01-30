@@ -1,6 +1,6 @@
 import React from 'react'
 
-function middlethree() {
+function Middlethree() {
   return (
     <div>
       <section>
@@ -245,4 +245,4 @@ function middlethree() {
   )
 }
 
-export default middlethree
+export default Middlethree

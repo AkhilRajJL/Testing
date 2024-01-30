@@ -1,6 +1,6 @@
 import React from 'react'
 
-function middletwo() {
+function Middletwo() {
   return (
     <div>
       <section>
@@ -217,4 +217,4 @@ function middletwo() {
   )
 }
 
-export default middletwo;
+export default Middletwo;
