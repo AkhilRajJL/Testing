@@ -6,6 +6,7 @@ import Middletwo from './middletwo'
 import Middlethree from './middlethree'
 import Middlefour from './middlefour'
 import Middlefive from './middlefive'
+import Footer from '../../common/footer'
 
 function Index() {
   return (
@@ -17,6 +18,7 @@ function Index() {
       <Middlethree/>
       <Middlefour/>
       <Middlefive/>
+      <Footer/>
     </div>
   )
 }
