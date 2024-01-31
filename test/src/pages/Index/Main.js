@@ -8,7 +8,7 @@ import Middlefour from './middlefour'
 import Middlefive from './middlefive'
 import Footer from '../../common/footer'
 
-function Index() {
+function Main() {
   return (
     <div>
       <Head/>
@@ -23,4 +23,4 @@ function Index() {
   )
 }
 
-export default Index
+export default Main;
