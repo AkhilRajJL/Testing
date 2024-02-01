@@ -8,6 +8,7 @@ import Coupons from "./pages/Coupons/Coupons";
 import Blogs from "./pages/Blogs/Blogs";
 import Community from "./pages/Community/Community";
 import Allinone from "./pages/Allinone/Allinone";
+import Profile from "./pages/Profile/Profile";
 
 
 export default function App() {
@@ -24,6 +25,8 @@ export default function App() {
           <Route path="/Blogs" element={<Blogs/>} />
           <Route path="/Community" element={<Community/>} />
           <Route path="/Allinone" element={<Allinone/>} />
+          <Route path="/Profile" element={<Profile/>} />
+          
       </Routes>
     </BrowserRouter>
   );

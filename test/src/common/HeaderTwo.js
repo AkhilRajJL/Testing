@@ -201,10 +201,10 @@ const [isClicked, setIsClicked] = useState(false);
 								</div>
 								<div class="al">
 									<div class="head-pro">
-										<img src="images/user/62736rn53themes.png" alt=""/> <b>Profile by</b>
+									<Link to="/Profile"><img src="images/user/62736rn53themes.png" alt=""/> <b>Profile by</b>
 										<br/>
 										<h4>Rn53 Themes</h4>
-										<a href="dashboard.html" class="fclick"></a>
+										</Link>
 									</div>
 									<div class="db-menu">
 										<ul>
