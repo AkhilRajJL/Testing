@@ -209,13 +209,13 @@ const [isClicked, setIsClicked] = useState(false);
 									<div class="db-menu">
 										<ul>
 											<li>
-												<a href="dashboard.html" class="db-lact">
-													<img src="images/icon/dbl1.png" alt="" />My Dashboard</a>
+											
+												<Link to="/Dashboard"><img src="images/icon/dbl1.png" alt="" />My Dashboard</Link>
 											</li>
 											<li>
-												<a href="db-all-listing.html">
-													<img src="images/icon/dbl7.png" alt="" />All Listings</a>
-											</li>
+							
+						                       <Link to="/Alllisting"><img src="images/icon/shop.png" alt="" />All Listings</Link>
+						                   </li>
 											<li>
 												<a href="add-listing-start.html" class="tz-lma">
 													<img src="images/icon/dbl3.png" alt="" />Add New Listing</a>

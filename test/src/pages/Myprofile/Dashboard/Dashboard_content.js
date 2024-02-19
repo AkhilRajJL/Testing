@@ -1,29 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Profile_content() {
+function Dashboard_content() {
   return (
     <div>
       <section class=" ud">
 		<div class="ud-inn">
 			
 			<div class="ud-lhs">
-			<div class="ud-lhs-s1">
+				<div class="ud-lhs-s1">
 					<img src="images/user/62736rn53themes.png" alt=""/>
 					<h4>Rn53 Themes</h4>
 					<b>Join on 26, Mar 2021</b>
-					<Link to="/Myprofile"><a class="ud-lhs-view-pro" target="_blank" href="profile.html">My profile</a></Link>
+					<Link to ="/Myprofile"><a class="ud-lhs-view-pro" target="_blank" href="profile.html">My profile</a></Link>
 				</div>
 				<div class="ud-lhs-s2">
 					<ul>
-						<li>
+					<li>
+											
+					<Link to="/Dashboard"><img src="images/icon/dbl1.png" alt="" />My Dashboard</Link>
+					</li>
+					<li>
 							
-						<Link to="/Dashboard"><img src="images/icon/dbl1.png" alt="" />My Dashboard</Link>
-						</li>
-						<li>
-							
-						<Link to="/Alllisting"><img src="images/icon/shop.png" alt="" />All Listings</Link>
-						</li>
+					<Link to="/Alllisting"><img src="images/icon/shop.png" alt="" />All Listings</Link>
+					 </li>
 						<li>
 							<a href="add-listing-start.html">
 								<img src="images/icon/dbl3.png" alt="" />Add New Listing</a>
@@ -208,6 +208,10 @@ function Profile_content() {
 								<th>Listing Name</th>
 								<th>Rating</th>
 								<th>Views</th>
+								
+								<th>Status</th>
+								<th>Edit</th>
+								<th>Delete</th>
 								
 								<th>Preview</th>
 							</tr>
@@ -522,7 +526,7 @@ function Profile_content() {
 								</td>
 								<td><span class="db-list-rat">12</span>
 								</td>
-							
+								
 								<td><span class="db-list-ststus">Active</span>
 								</td>
 								<td><a href="edit-listing-step-1.html?row=LIST238" class="db-list-edit">Edit</a>
@@ -622,7 +626,7 @@ function Profile_content() {
 								</td>
 								<td><span class="db-list-rat">8</span>
 								</td>
-							
+								
 								<td><span class="db-list-ststus">Active</span>
 								</td>
 								<td><a href="edit-listing-step-1.html?row=LIST129" class="db-list-edit">Edit</a>
@@ -813,7 +817,7 @@ function Profile_content() {
 					<div class="ud-rhs-pay-inn">
 						<h3>Listing open & close status</h3>
 						<ul>
-						
+							
 							<li> <span>test</span>
 								<div class="custom-control custom-switch">
 									<input type="checkbox" class="listing_open_close_switch custom-control-input" id="395" checked/>
@@ -1095,7 +1099,6 @@ function Profile_content() {
 										<img src="images/user/475847.jpg" alt=""/>
 									</a>
 								</li>
-								
 							</ul>
 						</div>
 					</div>
@@ -1107,4 +1110,4 @@ function Profile_content() {
   )
 }
 
-export default Profile_content
+export default Dashboard_content

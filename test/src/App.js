@@ -9,6 +9,12 @@ import Blogs from "./pages/Blogs/Blogs";
 import Community from "./pages/Community/Community";
 import Allinone from "./pages/Allinone/Allinone";
 import Profile from "./pages/Profile/Profile";
+import Myprofile from "./pages/Myprofile/Myprofile";
+
+import Alllisting from "./pages/Myprofile/All_listing/Alllisting";
+import Dashboard from "./pages/Myprofile/Dashboard/Dashboard";
+
+
 
 
 export default function App() {
@@ -26,7 +32,10 @@ export default function App() {
           <Route path="/Community" element={<Community/>} />
           <Route path="/Allinone" element={<Allinone/>} />
           <Route path="/Profile" element={<Profile/>} />
-          
+          <Route path="/Myprofile" element={<Myprofile/>} />
+          <Route path="/Dashboard" element={<Dashboard/>} />
+        
+          <Route path="/Alllisting" element={<Alllisting/>} />
       </Routes>
     </BrowserRouter>
   );
